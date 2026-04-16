@@ -1,0 +1,12 @@
+Recebe fila Alunos;
+Enquanto (fila Alunos conter Aluno maior que 0){
+  Recebe Nome primeiro Aluno da fila Alunos;
+  Compara Nome com a lista Chamada;
+  Se o Aluno estiver na lista Chamada{
+    Então Aluno entra na sala;
+  }
+  Senão{
+    Então Aluno não entra;
+    Aluno é retirado da fila Alunos;
+  }
+}
